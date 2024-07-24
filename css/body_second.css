@@ -1,0 +1,69 @@
+.body__cont_blocks {
+    display: flex;
+}
+.body__cont_bl_magazines {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    row-gap: 26px;
+}
+.block__magazine {
+    width: 296px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, .12);
+    border-radius: 5px;
+    padding: 20px 22px;
+    transition: transform 500ms linear,
+                box-shadow 500ms linear;
+}
+.block__magazine:hover {
+    transform: scale(1.005);
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, .5);
+}
+.block__magazine_info {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin-bottom: 25px;
+}
+.block__magazine_name {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+}
+.block__magazine_products {
+    display: flex;
+    column-gap: 8px;
+}
+.product__img {
+
+}
+.body__cont_bl_banners {
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+}
+.marple_svg {
+
+}
+.huawei_svg {
+
+}
+.berlingo_svg {
+
+}
+.ukwai_svg {
+
+}
+.lassie_svg {
+
+}
+.denzel_svg {
+
+}
+.block__banner_img {
+    border-radius: 5px;
+}
+

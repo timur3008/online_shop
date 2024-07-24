@@ -1,0 +1,112 @@
+.main__footer {
+    background: linear-gradient(45deg, #F64D4D, #4D5EF6);
+}
+.footer {
+    width: 1280px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+.footer__start {
+    display: flex;
+    margin-top: 40px;
+    column-gap: 77px;
+}
+.footer__blocks {
+    display: flex;
+    column-gap: 100px;
+}
+.footer__block {
+    display: flex;
+    flex-direction: column;
+}
+.foot__bl_main_text {
+    margin: 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.foot__bl_infos {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.foot__bl_info_link {
+    font-weight: 400;
+    color: #fff;
+    font-size: 14px;
+}
+.footer__block_news {
+    
+}
+.foot__bl_question {
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 23px;
+}
+.foot__bl_form {
+    display: flex;
+    column-gap: 15px;
+}
+.foot__bl_form-input {
+    width: 260px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 5px 8px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.foot__bl_form-input::placeholder {
+    color: #fff;
+}
+.foot__bl_form-button {
+    width: 130px;
+    color: #4D5EF6;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.foot__bl_soc_med-text {
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    margin: 21px 0px;
+}
+.social__media_images {
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+}
+.vk__svg {
+
+}
+.instagram_svg {
+
+}
+.facebook__svg {
+
+}
+.footer__end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+.logo1__svg {
+
+}
+.footer__end_text {
+    margin: 0;
+    height: 14px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+
+
+
